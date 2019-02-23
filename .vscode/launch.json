@@ -2,9 +2,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - HashMapExample",
+            "name": "CodeLens (Launch) - App",
             "request": "launch",
-            "mainClass": "HashMapExample",
+            "mainClass": "app.App",
+            "projectName": "BasicExamples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "App",
             "projectName": "Basic-Coding_d6fb6d59"
         }
     ]
