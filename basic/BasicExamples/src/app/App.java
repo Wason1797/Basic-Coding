@@ -12,5 +12,8 @@ public class App {
         basics.AcumulatorExample.runEvenAsterisk();
         System.out.println("--- Acumulator String Example ---");
         basics.AcumulatorExample.stringAccumulatorExample();
+        System.out.println("--- Array Vowel Count Example ---");
+        basics.AcumulatorExample.firstArrayExample();
+
     }
 }

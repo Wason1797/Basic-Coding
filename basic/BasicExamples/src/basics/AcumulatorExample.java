@@ -51,4 +51,38 @@ public class AcumulatorExample {
         System.out.println(sentence);
 
     }
+
+    public static void multipleDetection() {
+        int limit = 20;
+        for (int i = 1; i <= limit; i++) {
+            if (i % 2 == 0)
+                System.out.println(i + " Es multiplo de 2");
+            else if (i % 3 == 0)
+                System.out.println(i + " Es multiplo de 3");
+            else if (i % 5 == 0)
+                System.out.println(i + " Es multoplo de 5");
+        }
+    }
+
+    public static void firstArrayExample() {
+        String sentence = "aaaaaaaaaccccceeeecceceeecooooisiiisisi";
+        int[] vowelCount = { 0, 0, 0, 0, 0 };
+        char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+
+        String sentenceUper = sentence.toUpperCase();
+
+        System.out.println(sentence);
+        System.out.println(sentenceUper);
+
+        for (int i = 0; i < sentence.length(); i++) {
+            char selected = sentence.charAt(i);
+            for (int j = 0; j < 5; j++) {
+                if (selected == vowels[j])
+                    vowelCount[j] += 1;
+            }
+        }
+        for (int i = 0; i < 5; i++) {
+            System.out.println("El numero de letras " + vowels[i] + " es: " + vowelCount[i]);
+        }
+    }
 }
