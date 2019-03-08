@@ -10,7 +10,7 @@ public class HashMapExample {
 
     public static void runExample() {
         try {
-            String filePath = "basic\\ExampleFiles\\inputExample.txt";
+            String filePath = "D:\\wason\\Documents\\Trabajos Universidad\\Proyectos y Soluciones\\Basic-Coding\\basic\\ExampleFiles\\inputExample.txt";
             ArrayList<String> inputLines = new FileReader(filePath).getAllLines();
             HashMap<String, Integer> personCounterMap = new HashMap<>();
             inputLines.forEach(x -> {
