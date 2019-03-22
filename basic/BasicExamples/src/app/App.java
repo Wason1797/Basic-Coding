@@ -1,5 +1,6 @@
 package app;
 
+import basics.Series;
 import exampleClases.*;
 
 public class App {
@@ -59,6 +60,15 @@ public class App {
         System.out.println("--- Inheritance Example ---");
         inheritanceExamples();
 
-        
+        System.out.println("--- Fibonacci Series ---");
+
+        Series.fibonacci(10);
+
+        System.out.println("--- Factorial ---");
+        System.out.println(Series.factorial(10));
+
+        System.out.println("--- Power ---");
+        System.out.println(Series.power(3, 4));
+
     }
 }
